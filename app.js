@@ -29,7 +29,7 @@ const showWinner=(userWin,userChoice,computerChoice)=>{
     }else{
         computerScore++;
         computerScorePara.innerText=computerScore;
-        msg.innerText=`You loose ! ${computerChoice} beats Your ${userChoice}`;
+        msg.innerText=`You lose ! ${computerChoice} beats Your ${userChoice}`;
         msg.style.backgroundColor="red";
     }
 
@@ -54,8 +54,7 @@ const playgame=(userChoice)=>{
 }
 choices.forEach((choice)=>{
     choice.addEventListener("click",()=>{
-        const userChoice=choice.getAttribute("id").toLowerCase;
-       
+        const userChoice=choice.getAttribute("id").toLowerCase();
         playgame(userChoice);
     });
 });

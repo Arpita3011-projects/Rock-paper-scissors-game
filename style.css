@@ -63,17 +63,7 @@ img{
 {
     margin-top:5rem;
 }
-/* #msg{
-    background-color:#081b31;
-    color:white;
-    font-size:2rem;
-    margin-top:5rem;
-    display:inline;
-    padding:1rem;
-    border-radius:1rem;
-    max-width: 90%;
-     */
-/* } */
+
 #msg {
   background-color: #081b31;
   color: white;
@@ -82,7 +72,7 @@ img{
   padding: 1rem 1.2rem;
   border-radius: 1rem;
 
-  /* IMPORTANT FIXES */
+ 
   display: inline-block;
   max-width: 90%;
   text-align: center;
